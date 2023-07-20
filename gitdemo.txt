@@ -1,0 +1,49 @@
+git clone https://github.com/manjuva/example_repo.git
+ls
+git status
+cd example_repo/
+git status
+ls
+cd workspace/
+ls
+cd git/
+cls
+clear
+pwd
+mkdir DevOps
+cd DevOps
+mkdir gitdemo
+cd gitdemo/
+ls
+git clone https://github.com/manjuva/gitrepo1.git
+cd gitrepo1/
+echo "Hello World" >> file1
+ls
+ls -la
+git add file1
+git commit -m "File1 created by Manju"
+git push
+ls
+cd ..
+ls
+git init gitrepo2
+ls
+cd gitrepo2
+ls
+echo "Hello File2" >> file2
+ls
+git add file2
+git commit -m "file2 created by Manju"
+git push
+git -v remote
+git log
+git remote
+git remote --help
+git remote
+git remote -v
+git remote add origin https://github.com/manjuva/gitrepo2.git
+git remote -v
+git push
+git push --set-upstream origin master
+git status
+git log
